@@ -1,0 +1,12 @@
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.AssemblyInfoInputs.cache
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.AssemblyInfo.cs
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.csproj.CoreCompileInputs.cache
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.sourcelink.json
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\bin\Debug\net10.0\EvolvingApp.Application.deps.json
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\bin\Debug\net10.0\EvolvingApp.Application.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\bin\Debug\net10.0\EvolvingApp.Application.pdb
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\refint\EvolvingApp.Application.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.pdb
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\ref\EvolvingApp.Application.dll

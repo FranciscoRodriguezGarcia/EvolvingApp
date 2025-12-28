@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EvolvingApp.Application\EvolvingApp.Application.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -45,3 +45,5 @@ C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\bin\Debug\net10.0\System.Diag
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\obj\Debug\net10.0\Evolving.17C52CC0.Up2Date
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\bin\Debug\net10.0\EvolvingApp.Application.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Console\bin\Debug\net10.0\EvolvingApp.Application.pdb

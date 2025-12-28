@@ -604,6 +604,16 @@
             "rid": "win"
           }
         }
+      },
+      "EvolvingApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/EvolvingApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvolvingApp.Application.dll": {}
+        }
       }
     }
   },
@@ -1510,10 +1520,16 @@
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "EvolvingApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../EvolvingApp.Application/EvolvingApp.Application.csproj",
+      "msbuildProject": "../EvolvingApp.Application/EvolvingApp.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "EvolvingApp.Application >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 10.0.1",
       "Microsoft.Extensions.DependencyInjection >= 10.0.1",
       "Microsoft.Extensions.Hosting >= 10.0.1"
@@ -1550,7 +1566,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Application\\EvolvingApp.Application.csproj": {
+              "projectPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Application\\EvolvingApp.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

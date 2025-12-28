@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "EvolvingApp/1.0.0": {
         "dependencies": {
+          "EvolvingApp.Application": "1.0.0",
           "Microsoft.Extensions.Configuration": "10.0.1",
           "Microsoft.Extensions.DependencyInjection": "10.0.1",
           "Microsoft.Extensions.Hosting": "10.0.1"
@@ -397,6 +398,14 @@
             "fileVersion": "10.0.125.57005"
           }
         }
+      },
+      "EvolvingApp.Application/1.0.0": {
+        "runtime": {
+          "EvolvingApp.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -601,6 +610,11 @@
       "sha512": "sha512-xfaHEHVDkMOOZR5S6ZGezD0+vekdH1Nx/9Ih8/rOqOGSOk1fxiN3u94bYkBW/wigj0Uw2Wt3vvRj9mtYdgwEjw==",
       "path": "system.diagnostics.eventlog/10.0.1",
       "hashPath": "system.diagnostics.eventlog.10.0.1.nupkg.sha512"
+    },
+    "EvolvingApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

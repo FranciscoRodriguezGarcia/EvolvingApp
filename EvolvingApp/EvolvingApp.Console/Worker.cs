@@ -1,34 +1,35 @@
 using Microsoft.Extensions.Hosting;
+using EvolvingApp.Application;
 
-namespace EvolvingApp.Console;
+namespace EvolvingApp.ConsoleApp;
 
 public class Worker : BackgroundService
 {
+    private readonly ICalculator _calculator;
+    private readonly IInputValidator _validator;
 
+    public Worker(
+        ICalculator calculator,
+        IInputValidator validator)
+    {
+        _calculator = calculator;
+        _validator = validator;
+    }
 
-   protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-   {
-      System.Console.WriteLine("Worker started");
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        System.Console.Clear();
 
-      //     while (!stoppingToken.IsCancellationRequested)
-      //   {
-      System.Console.Clear();
-      System.Console.Write("\r\n Insert first value... \n\r");
-      var _x = Validator.Validate(System.Console.ReadKey());
-      System.Console.WriteLine("\r\n Insert second value... \n\r");
-      var _y = Validator.Validate(System.Console.ReadKey());
-      System.Console.WriteLine("\r\n Calculating... \n\r");
-      System.Console.WriteLine("\r\n Result " + Sum(_x, _y).ToString());
-      await Task.Delay(8000, stoppingToken);
-      // }
-   }
+        System.Console.WriteLine("Insert first value...");
+        var x = _validator.Validate(System.Console.ReadKey());
 
+        System.Console.WriteLine("\nInsert second value...");
+        var y = _validator.Validate(System.Console.ReadKey());
 
+        var result = _calculator.Sum(x, y);
 
+        System.Console.WriteLine($"\nResult: {result}");
 
-   public int Sum(int x, int y)
-   {
-      return x + y;
-   }
-
+        await Task.Delay(8000, stoppingToken);
+    }
 }
