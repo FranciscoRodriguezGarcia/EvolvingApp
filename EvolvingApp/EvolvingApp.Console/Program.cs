@@ -1,3 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.ReadKey();
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using EvolvingApp.Console;
+
+var builder = Host.CreateApplicationBuilder(args);
+
+builder.Configuration.AddJsonFile(
+    "appsettings.json",
+    optional: false,
+    reloadOnChange: true);
+
+// Application
+builder.Services.AddHostedService<Worker>();
+
+
+var host = builder.Build();
+await host.RunAsync();
+
