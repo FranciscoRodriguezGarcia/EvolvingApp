@@ -10,3 +10,7 @@ C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\Evolvin
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\refint\EvolvingApp.Application.dll
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.pdb
 C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\ref\EvolvingApp.Application.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\bin\Debug\net10.0\EvolvingApp.Infrastructure.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\bin\Debug\net10.0\EvolvingApp.Infrastructure.pdb
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\EvolvingApp.Application.csproj.AssemblyReference.cache
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Application\obj\Debug\net10.0\Evolving.4FC63A10.Up2Date

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using EvolvingApp.Application;
 using EvolvingApp.ConsoleApp;
+using EvolvingApp.Infrastructure;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -13,10 +14,13 @@ builder.Configuration.AddJsonFile(
     reloadOnChange: true);
 
 // Application
-builder.Services.AddHostedService<Worker>();
-
+builder.Services.AddSingleton<IConsoleApp, ConsoleApp>();
+builder.Services.AddSingleton<IInputReader, ConsoleInputReader>();
+builder.Services.AddSingleton<IOutputWriter, ConsoleOutputWriter>();
+builder.Services.AddSingleton<ICommandHandler, CommandHandler>();
 builder.Services.AddSingleton<ICalculator, Calculator>();
-builder.Services.AddSingleton<IInputValidator, InputValidator>();
 
 var host = builder.Build();
-await host.RunAsync();
+
+var app = host.Services.GetRequiredService<IConsoleApp>();
+await app.RunAsync(CancellationToken.None);

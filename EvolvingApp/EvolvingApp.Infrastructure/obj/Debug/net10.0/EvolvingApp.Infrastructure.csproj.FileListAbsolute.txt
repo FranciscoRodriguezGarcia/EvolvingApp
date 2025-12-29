@@ -1,0 +1,12 @@
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.AssemblyInfoInputs.cache
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.AssemblyInfo.cs
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.sourcelink.json
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\bin\Debug\net10.0\EvolvingApp.Infrastructure.deps.json
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\bin\Debug\net10.0\EvolvingApp.Infrastructure.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\bin\Debug\net10.0\EvolvingApp.Infrastructure.pdb
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\refint\EvolvingApp.Infrastructure.dll
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\EvolvingApp.Infrastructure.pdb
+C:\GIT\EvolvingApp\EvolvingApp\EvolvingApp.Infrastructure\obj\Debug\net10.0\ref\EvolvingApp.Infrastructure.dll

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EvolvingApp.Application\EvolvingApp.Application.csproj" />
+    <ProjectReference Include="..\EvolvingApp.Infrastructure\EvolvingApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

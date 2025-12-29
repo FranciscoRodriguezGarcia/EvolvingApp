@@ -608,11 +608,24 @@
       "EvolvingApp.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "EvolvingApp.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/EvolvingApp.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/EvolvingApp.Application.dll": {}
+        }
+      },
+      "EvolvingApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/EvolvingApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvolvingApp.Infrastructure.dll": {}
         }
       }
     }
@@ -1525,11 +1538,17 @@
       "type": "project",
       "path": "../EvolvingApp.Application/EvolvingApp.Application.csproj",
       "msbuildProject": "../EvolvingApp.Application/EvolvingApp.Application.csproj"
+    },
+    "EvolvingApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../EvolvingApp.Infrastructure/EvolvingApp.Infrastructure.csproj",
+      "msbuildProject": "../EvolvingApp.Infrastructure/EvolvingApp.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "EvolvingApp.Application >= 1.0.0",
+      "EvolvingApp.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 10.0.1",
       "Microsoft.Extensions.DependencyInjection >= 10.0.1",
       "Microsoft.Extensions.Hosting >= 10.0.1"
@@ -1542,9 +1561,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Console\\EvolvingApp.csproj",
-      "projectName": "EvolvingApp",
-      "projectPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Console\\EvolvingApp.csproj",
+      "projectUniqueName": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Console\\EvolvingApp.Console.csproj",
+      "projectName": "EvolvingApp.Console",
+      "projectPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Console\\EvolvingApp.Console.csproj",
       "packagesPath": "C:\\Users\\Asus-TUF\\.nuget\\packages\\",
       "outputPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Console\\obj\\",
       "projectStyle": "PackageReference",
@@ -1569,6 +1588,9 @@
           "projectReferences": {
             "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Application\\EvolvingApp.Application.csproj": {
               "projectPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Application\\EvolvingApp.Application.csproj"
+            },
+            "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Infrastructure\\EvolvingApp.Infrastructure.csproj": {
+              "projectPath": "C:\\GIT\\EvolvingApp\\EvolvingApp\\EvolvingApp.Infrastructure\\EvolvingApp.Infrastructure.csproj"
             }
           }
         }
